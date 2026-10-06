@@ -290,6 +290,13 @@ footer .logo{color:#fff;justify-content:center;margin-bottom:12px}
 footer .fnav{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
 footer .fnav a{color:#a9cfc9;font-size:.85rem}
 footer .fine{font-size:.76rem;color:#7fa39d;line-height:1.85;margin-top:12px}
+/* 교습비 고지 (footer, 접힘) */
+.fee{margin-top:14px;font-size:.74rem;color:#7fa39d}
+.fee summary{cursor:pointer;list-style:none;display:inline-block;text-decoration:underline;text-underline-offset:3px}
+.fee summary::-webkit-details-marker{display:none}
+.fee[open] summary{margin-bottom:10px}
+.fee img{width:100%;border-radius:10px;background:#fff}
+.fee .fee-zoom{display:inline-block;margin-top:6px;color:#a9cfc9;text-decoration:underline}
 
 /* sticky bottom bar (mobile) */
 .bottombar{position:fixed;left:0;right:0;bottom:0;z-index:45;
@@ -498,6 +505,13 @@ body{padding-bottom:72px}
     경기 성남시 분당구 백현로101번길 13, 5층 · 대표 상담 010-2608-8298<br>
     ※ 교육 성과는 개인에 따라 다를 수 있으며, 특정 취업·창업 결과를 보장하지 않습니다.
   </p>
+  <details class="fee">
+    <summary>교습비 등 고지</summary>
+    <a href="/tuition-fee.jpg" target="_blank" rel="noopener">
+      <img src="/tuition-fee.jpg" alt="이바우펫 애견미용학원 분당점 교습비 등 고지표" loading="lazy">
+    </a>
+    <a href="/tuition-fee.jpg" target="_blank" rel="noopener" class="fee-zoom">크게 보기</a>
+  </details>
 </footer>
 
 <!-- sticky bottom bar -->
